@@ -56,14 +56,14 @@ header{
 #nav-contact i{
 background-color: aliceblue;
 color: black;
-border-radius: 45%;
-width: 50px;
-height: 30px;
+border-radius: 50%;
+width: 40px;
+height: 40px;
 /* text-align: center; */
 padding: 25px;
-padding-right: 40px;
-font-size: 15px;
-
+padding-right: 30px;
+font-size: 20px;
+align-self: center;
 /* font-size: 20px; */
 }
 #nav-contact p{
@@ -81,6 +81,7 @@ font-size: 15px;
     width: 10%;
     border-radius: 200px;
     margin-top: 1px;
+    object-fit: cover;
 }
 #head-image{
     margin-top: 100px;
@@ -128,6 +129,10 @@ header button:hover{
 #header2 img{
     border-radius: 50%;
     margin-top: 150px;
+    background-color: white;
+    object-fit: cover;
+    overflow: visible;
+    transform: translateX(-100px);
 }
 /* Main section*/
 #main-pic img{
@@ -171,6 +176,10 @@ transform: translateX(200px);
     text-align: justify;
     font-size: 25px;
     padding: 20px;
+}
+#about-2 h1{
+    transform: translateX(20px);
+    padding-block: 10px;
 }
 table{
     font-size: 45px;
@@ -217,47 +226,47 @@ table{
     /* border-bottom: 2px solid black; */
 }
 #info-heading{
-    text-align: center;
-    padding: 30px;
+    /* text-align: center; */
+    padding: 20px;
+    color: black;
+    border-bottom: 2px solid #737874;
 }
 .table-head{
     border-right: 2px solid black;
-    padding: 10px;
+    padding: 15px;
     padding-left: 20px;
     width: 30%;
+}
+
+.table-head h3{
+    color: #39B7BC;
 }
 #name{
     /* margin-left: 34px; */
     background-color: aliceblue;
 }
-#name h3{
-    font-size: 30px;
-}
-#birth{
-    font-size: 23px;
-}
+
 #phone{
     /* margin-left : 26px; */
-font-size: 23px;
     background-color: aliceblue;
 }
-#Email {
-   font-size: 23px; 
-}
+
 
 #birth{
     display: flex;
-    gap: 80px;
 }
 #table-div{
     border: 2px solid black;
     width: 800px;
-    height: 300px;
+    height: 280px;
     border-radius: 18px;
     display: block;
     margin-left: 40px;
     margin-right: 40px;
     margin-top: 50px;
+}
+#table-div p{
+padding-top: 20px;
 }
 #outer-table-box{
     display: flex;
@@ -429,8 +438,9 @@ color: black;
     gap: 20px;
     border-radius: 20px;
     padding: 20px;
-    margin-top: 50px;
+    margin-top: 10px;
     text-align: center;
+    transform: translateY(30px);
 }
 #head img{
     height: 150px;
@@ -588,8 +598,8 @@ height: 50px;
    
 }
 #Contacts{
-    background-color: aliceblue;
-    /* margin-top: -30px; */
+    background-color: rgb(233, 235, 236);
+    margin-top: -50px;
 }
 #contact-main-div{
     display: flex;
